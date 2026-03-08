@@ -1,0 +1,41 @@
+ <!-- • Create a one-hour countdown timer using HTML, CSS,
+
+and JavaScript.
+Requirements:
+1. Timer display and buttons to start, pause, and reset.
+2. Styled timer display.
+3. Start, pause, and reset logic.
+
+4. Time shown in MM:SS format.
+5. Prevent negative countdown.
+6. Show message when timer reaches zero. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Countdown Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Countdown Timer</h1>
+
+<div id="timer">60:00</div>
+
+<div class="buttons">
+<button onclick="startTimer()">Start</button>
+<button onclick="pauseTimer()">Pause</button>
+<button onclick="resetTimer()">Reset</button>
+</div>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
